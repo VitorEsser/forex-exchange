@@ -1,0 +1,20 @@
+.container-historical {
+  border: 1px solid rgb(154, 149, 149);
+  border-radius: 8px;
+  margin: 3em auto;
+  padding: 1em;
+  flex: 0 0 35%;
+  max-width: 35%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .container-historical {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+}
