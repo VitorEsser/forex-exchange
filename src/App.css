@@ -1,8 +1,16 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 .App {
-  /* background-color: aquamarine; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.page-container {
   margin: 2% auto;
   padding: 1vh 2vw;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .grid-container{
